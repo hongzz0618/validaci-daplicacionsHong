@@ -30,6 +30,12 @@ public class TestPunt {
         assertEquals(234, p.getY());
     }
 
+    @Test
+    public void testSuma() {
+        // comprova que el constructor Punt(int,int) deixi els valors correctes
+        Punt p = new Punt();
+        assertEquals(7, p.suma(2, 5));
+    }
 
     public static void main(String args[]) {
         org.junit.runner.JUnitCore.main("TestPunt");

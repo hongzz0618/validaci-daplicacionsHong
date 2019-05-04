@@ -12,4 +12,5 @@ public class Punt {
 	public void setY(int y) {
 		this.y = y;
 	}
+	public  static int suma(int x, int y) { return x+y;}
 }
