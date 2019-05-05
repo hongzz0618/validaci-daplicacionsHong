@@ -36,8 +36,9 @@ public class TestPunt {
         Punt p = new Punt();
         assertEquals(7, p.suma(2, 5));
     }
+    
 
-    public static void main(String args[]) {
+	public static void main(String args[]) {
         org.junit.runner.JUnitCore.main("TestPunt");
         
         
