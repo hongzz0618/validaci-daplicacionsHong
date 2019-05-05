@@ -37,6 +37,14 @@ public class TestPunt {
         assertEquals(7, p.suma(2, 5));
     }
     
+    
+    @Test
+    public void testnegative() {
+    	 Punt p = new Punt();
+         p.versinegativo(1);
+    }
+
+   
 
 	public static void main(String args[]) {
         org.junit.runner.JUnitCore.main("TestPunt");
